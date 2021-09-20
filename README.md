@@ -1,1 +1,2 @@
-# iktpl
+# töri
+amerika felfedezése
