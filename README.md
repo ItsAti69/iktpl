@@ -1,2 +1,0 @@
-# töri
-amerika felfedezése
