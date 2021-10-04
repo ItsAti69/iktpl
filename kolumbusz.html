@@ -1,0 +1,33 @@
+<html>
+
+<head>
+<title>Kolumbusz Kristóf</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="amerika.css">
+</head>
+
+<body>
+    <div id="header">
+    <a href="fomenu.html">Főmenü</a>
+    <a class="active" href="kolumbusz.html">Kolumbusz Kristóf</a>
+    <a href="amerigo.html">Amerigo Vespucci</a>
+  </div>
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+</script>
+</body>
+</html>
