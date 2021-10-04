@@ -1,10 +1,17 @@
 body {
-    background-color:#324851;
-    color: #86AC41;
+    background-color:#324351;
+    color: #dfd98a;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
    }
 h1{
     text-align: center;
+    padding: 10px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
