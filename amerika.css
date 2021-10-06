@@ -5,8 +5,8 @@ body {
 }
 
 #header {
-  overflow: hidden;
-  background-color: #333;
+  background-color: #303236;
+  position: fixed;
 }
 
 #header a {
@@ -19,28 +19,20 @@ body {
 }
 
 #header a:hover {
-  background-color: #ddd;
+  background-color: #767779;
   color: black;
 }
 
 #header a.active {
-  background-color: grey;
+  background-color: #17171a;
   color: white;
 }
 .content {
   padding: 16px;
+  padding-top: 90px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 102px;
-}
-
 img :hover{
   opacity: 0.7
 }
