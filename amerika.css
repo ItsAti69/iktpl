@@ -5,6 +5,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.content {
+  padding: 50px;
+  padding-top: 90px;
+  line-height: 30px;
+}
+
+h1 , h2 , h3 , h4{
+  color: #42a5f5;
+}
+
 #header {
   background-color: #303236;
   position: fixed;
@@ -17,20 +27,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+
 }
 
 #header a:hover {
   background-color: #767779;
   color: black;
+
 }
 
 #header a.active {
-  background-color: #17171a;
+  background-color: #42a5f5;
   color: white;
-}
-.content {
-  padding: 50px;
-  padding-top: 90px;
-  line-height: 30px;
 
 }
