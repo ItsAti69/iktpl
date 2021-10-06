@@ -30,8 +30,8 @@ body {
 .content {
   padding: 16px;
   padding-top: 90px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  line-height: 30px;
+
 }
 img :hover{
   opacity: 0.7
